@@ -13,9 +13,13 @@ Configure the ports for the nodes by modifying these ports in both configuration
 
 ```
 
-  node {
+  node {git add .
+git commit -m "Apply version updates from GitHub Actions"
+git push
   ...
-    http {
+    http {git add .
+git commit -m "Apply version updates from GitHub Actions"
+git push
       fullNodePort = 8090
       solidityPort = 8091
     }
